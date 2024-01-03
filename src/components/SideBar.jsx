@@ -20,11 +20,18 @@ const SideBar = () => (
         className="category-btn"
         style={{
           background: category.name === selectedCategory && "#16c925",
-          color: "black",
+          color: "white",
         }}
         key={category.name}
       >
-        <span>{category.icon}</span>
+        <span
+          style={{
+            color: category.name === selectedCategory ? "white" : "#16c925",
+            marginRight: "15px",
+          }}
+        >
+          {category.icon}
+        </span>
         <span>{category.name}</span>
       </button>
     ))}

@@ -28,8 +28,12 @@ a {
 .category-btn {
   margin: 7px;
   border-radius: 10px;
-  transition: 1s;
+  transition: 0.3s;
   border-style: none;
+  background-color: transparent;
+  /* Need to display flex to align items for sidebar */
+  display: flex;
+  align-items: center;
 }
 
 .category-btn:hover {
