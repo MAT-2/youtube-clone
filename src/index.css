@@ -25,9 +25,18 @@ a {
   background-color: transparent;
 }
 
+.category-btn {
+  margin: 7px;
+  border-radius: 10px;
+  transition: 1s;
+  border-style: none;
+}
+
 .category-btn:hover {
-  background-color: #fc1503 !important;
+  background-color: #16c925 !important;
   color: white !important;
+  opacity: 1;
+  cursor: pointer;
 }
 
 .category-btn:hover span {
