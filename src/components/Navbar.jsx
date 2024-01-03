@@ -1,7 +1,30 @@
 import React from "react";
 
-const Navbar = () => {
-  return <div>Navbar</div>;
-};
+import { Stack } from "@mui/material";
+import { Link } from "react-router-dom";
+
+import { logo } from "../utils/constants";
+import SearchBar from "./SearchBar";
+
+const Navbar = () => (
+  //Using Stack to arrange elements for navbar
+  <Stack
+    direction="row"
+    alignItems="center"
+    p={2}
+    sx={{
+      position: "sticky",
+      background: "#000",
+      top: 0,
+      justifyContent: "space-between",
+    }}
+  >
+    {/* Adding logo into the Navbar to see */}
+    <Link to="/" style={{ display: "flex", alignItems: "center" }}>
+      <img src={logo} alt="logo" height={45} />
+    </Link>
+    <SearchBar />
+  </Stack>
+);
 
 export default Navbar;
