@@ -20,7 +20,7 @@ export const logo =
 //Exporting the array of categories to use for sidebar.
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
-  { name: "Triforce Odyssey", icon: <CodeIcon /> },
+  { name: "Legend of Zelda Walkthrough", icon: <CodeIcon /> },
   { name: "Coding", icon: <CodeIcon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
   { name: "NextJS", icon: <CodeIcon /> },
@@ -43,7 +43,7 @@ export const demoThumbnailUrl =
   "https://zelda.nintendo.com/breath-of-the-wild/assets/img/media/wallpaper-1-thumb.jpg";
 export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
 export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "Triforce Odyssey";
+export const demoChannelTitle = "Legend of Zelda Walkthrough";
 export const demoVideoTitle =
   "How to Unlock Hyrule's Secrets: Dive into the Legend of Zelda Lore 🗡️🛡️";
 export const demoProfilePicture =
