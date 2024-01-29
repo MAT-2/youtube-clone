@@ -20,7 +20,7 @@ export const logo =
 //Exporting the array of categories to use for sidebar.
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
-  { name: "Legend of Zelda Walkthrough", icon: <CodeIcon /> },
+  { name: "JS Mastery", icon: <CodeIcon /> },
   { name: "Coding", icon: <CodeIcon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
   { name: "NextJS", icon: <CodeIcon /> },
@@ -39,12 +39,11 @@ export const categories = [
 ];
 
 //Strings for videos that do not have a URL or title.
-export const demoThumbnailUrl =
-  "https://zelda.nintendo.com/breath-of-the-wild/assets/img/media/wallpaper-1-thumb.jpg";
+export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
 export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
 export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "Legend of Zelda Walkthrough";
+export const demoChannelTitle = "JavaScript Mastery";
 export const demoVideoTitle =
-  "How to Unlock Hyrule's Secrets: Dive into the Legend of Zelda Lore 🗡️🛡️";
+  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
