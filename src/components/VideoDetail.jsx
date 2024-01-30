@@ -19,7 +19,7 @@ const VideoDetail = () => {
       setVideoDetail(data.items[0])
     );
 
-    fetchFromAPI(`search?oart=snippet&relatedToVideoId=${id}&type=video`).then(
+    fetchFromAPI(`search?part=snippet&relatedToVideoId=${id}&type=video`).then(
       (data) => setVideos(data.items)
     );
   }, [id]);
@@ -39,7 +39,7 @@ const VideoDetail = () => {
         <Box flex={1}>
           <Box sx={{ width: "100%", position: "sticky", top: "86px" }}>
             <ReactPlayer
-              url={`https://www.youtube.com/watc?v=${id}`}
+              url={`https://www.youtube.com/watch?v=${id}`}
               className="react-player"
               controls
             />
@@ -75,16 +75,15 @@ const VideoDetail = () => {
             </Stack>
           </Box>
         </Box>
+        <Box
+          px={2}
+          py={{ md: 1, xs: 5 }}
+          justifyContent="center"
+          alignItems="center"
+        >
+          <Videos videos={videos} direction="column" />
+        </Box>
       </Stack>
-
-      <Box
-        px={2}
-        py={{ md: 1, xs: 5 }}
-        justifyContent="center"
-        alignItems="center"
-      >
-        <Videos videos={videos} />
-      </Box>
     </Box>
   );
 };
